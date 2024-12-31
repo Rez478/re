@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrack - Sustainable Living</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3e8e41;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(to bottom, #ffffff, #e8f5e9);
+        }
+        .hero h1 {
+            color: #4CAF50;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .feature-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 300px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EcoTrack</h1>
+        <p>Track Your Impact, Transform the Planet</p>
+    </header>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#marketplace">Marketplace</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h1>Welcome to EcoTrack</h1>
+        <p>Your ultimate companion for sustainable living. Calculate, track, and reduce your carbon footprint while accessing eco-friendly products.</p>
+        <button style="padding: 1rem 2rem; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Sign Up for Free</button>
+    </section>
+    <section id="features" class="features">
+        <div class="feature-card">
+            <h3>Carbon Footprint Tracker</h3>
+            <p>Log your activities and understand your environmental impact with ease.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Gamification</h3>
+            <p>Earn rewards and badges for adopting eco-friendly habits.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Marketplace</h3>
+            <p>Access eco-friendly products tailored to your needs and preferences.</p>
+        </div>
+    </section>
+    <footer>
+        <p>EcoTrack &copy; 2025 | Contact us: info@ecotrack.com</p>
+    </footer>
+</body>
+</html>
